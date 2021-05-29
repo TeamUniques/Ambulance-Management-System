@@ -7,12 +7,20 @@
 <!DOCTYPE html>
 <html>
     <head>
+    <!--Head Section  -->
         <title>Home | Ambulance Management System</title>
         <?php
             require ("assets/bootstrap_cdn.php");
         ?>
+        <!-- Google Fonts API -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Pattaya&display=swap" rel="stylesheet">
+    <!-- Google Fonts 2 -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
     </head>
     <body>
+    <!-- Body Section -->
     <?php
         require("header.php");
     ?>
@@ -51,6 +59,14 @@
                 </a>
         </div>
     </div>
+        <div class=" container" style="margin-top: 23px">
+            <div class="well  request-form">
+                <h1 style="font-family: 'Pattaya', sans-serif;">Ambulance Request Form</h1>
+            </div>
+            <div class="well  request-form">
+                <h1 style="font-family: 'Dancing Script', cursive;">Verified Drivers List</h1>
+            </div>
+        </div>
     </body>
 </html>
 
