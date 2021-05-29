@@ -49,7 +49,7 @@ include "assets/common.php";
                         <input type="password" class="form-control" placeholder="Enter Your Password" name="password"
                                required>
                     </div>
-                    <div class="form-group">
+                    <div class="form-gcroup">
                         <input type="password" class="form-control" placeholder="Confirm Password" name="cpassword"
                                required>
                     </div>
@@ -58,6 +58,7 @@ include "assets/common.php";
                     </div>
                 </form>
                 <h3>Already Had an account.<a href = "login.php">Click Here</a> to Login!</h3>
+                <h3>If You are an Ambulance Driver <a href = "driver_area/driver_register.php">Click Here</a> to register.</h3>
             </div>
         </div>
     </div>
